@@ -23,8 +23,8 @@ To name a few features and customization that are not provided directly by `spri
 1. **Code-first approach:**
 	- `io.swagger` supports a code-first approach, where you can define your API documentation using Java annotations directly in your code, such as 
 		- `@Api`, `@ApiOperation`, and 
-		- `@ApiModel`. `springdoc-openapi-ui` 
-		primarily follows a convention-based approach, where the documentation is generated based on your existing Spring Boot endpoints and annotations.
+		- `@ApiModel`. 
+	- `springdoc-openapi-ui` primarily follows a convention-based approach, where the documentation is generated based on your existing Spring Boot endpoints and annotations.
 		
 2. **Fine-grained control over OpenAPI specification:**
 	- `io.swagger` provides more options for fine-grained control over the OpenAPI specification generation. 
@@ -35,9 +35,10 @@ To name a few features and customization that are not provided directly by `spri
 	 - While `springdoc-openapi-ui` provides extension points for customization, the range of extensions and integrations available might be more extensive in the `io.swagger` ecosystem.
 	 
 4. **Compatibility with older versions of Swagger:** 
-	- If you specifically need to work with an older version of Swagger, you might find more flexibility and compatibility in the `io.swagger` dependencies. `springdoc-openapi-ui` typically supports the latest OpenAPI Specification version and related tooling.
+	- If you specifically need to work with an older version of Swagger, you might find more flexibility and compatibility in the `io.swagger` dependencies. 
+	- `springdoc-openapi-ui` typically supports the latest OpenAPI Specification version and related tooling.
 
-
+---
 ### Steps to set up Springdoc OpenAPI UI implementation of Swagger UI for a Spring Boot Application on localhost.
 
 Here are the steps to set up the `springdoc-openapi-ui` version of Swagger (Springdoc OpenAPI UI) on your local Spring Boot application:
